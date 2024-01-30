@@ -118,22 +118,22 @@ table td{
 color: hsl(30, 10%, 34%);
 font-size: 12px;
 font-family: Arial, Helvetica, sans-serif;
-padding:10px 150px 0 0;
+padding:10px 180px 0 0;
 margin: 0;
 /* border-bottom: 1px solid hsl(30, 10%, 34%); */
 }
 
 @media(max-width:600px){
-    body{
-        padding: 20px;
-    }
  .container{
   padding: 15px;
-  margin: 20px 0;
-  width: 100%;
+  margin: 20px;
+  width: 95%;
  }
  .attribution{
 padding: 10px;
+ }
+ table td{
+    padding: 10px 130px 0 0;
  }
 }
 /* .t-section td{
